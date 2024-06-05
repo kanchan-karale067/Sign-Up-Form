@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="description" content="A signup form for new users" />
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <form method="post">
+      <div>
+        <header><h1>Signup</h1></header>
+        <main>
+          <label for="name"></label>
+          <input
+            id="name"
+            type="text"
+            placeholder="Full Name"
+            class="input"
+            required="yes"
+          />
+          <br />
+
+          <label for="email"></label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Email"
+            class="input"
+            required="yes"
+          /> 
+          <br />
+
+          <label for="password"></label>
+          <input
+            id="password"
+            type="password"
+            placeholder="Password"
+            class="input"
+            required="yes"
+          />
+          <br />
+          <label for="cpassword"></label>
+          <input
+            id="cpassword"
+            type="password"
+            placeholder="Confirm Password"
+            class="input"
+            required="yes"
+          />
+          <br />
+
+          <label for="date"></label>
+          <input
+            type="date"
+            placeholder="MM/DD/YY"
+            class="input"
+            required="yes"
+          />
+          <br />
+
+          <label for="radio"></label>
+          <input name="radio" type="radio" required="yes" /> Student
+          <input name="radio" type="radio" required="yes" /> Employee
+          <br />
+
+          <label for="checkbox"></label>
+          <input id="checkbox" type="checkbox" />I agree to all the Terms and
+          Conditions
+        </main>
+
+        <footer>
+          <label for="btn"></label>
+          <button type="submit" name="btn" class="btn">Signup</button>
+        </footer>
+      </div>
+    </form>
+  </body>
+</html>
